@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Touge Supply</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.canva.com/design/DAG6AJTpVPc/3hOiDF0HyMCVTslPl0Zviw/view?utm_content=DAG6AJTpVPc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h965da51299');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-shadow: 0 0 5px black;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            background: rgba(0,0,0,0.5);
+            border-radius: 12px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Touge Supply</h1>
+        <p>Bem-vindo à página Sobre da Touge Supply...</p>
+    </div>
+</body>
+</html>
