@@ -1,43 +1,119 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre - Touge Supply</title>
+<div class="about-bg">
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('https://www.canva.com/design/DAG6AJTpVPc/3hOiDF0HyMCVTslPl0Zviw/view?utm_content=DAG6AJTpVPc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h965da51299');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            color: white;
-            text-shadow: 0 0 5px black;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px;
-            background: rgba(0,0,0,0.5);
-            border-radius: 12px;
-        }
-        h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
-        p {
-            line-height: 1.8;
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Touge Supply</h1>
-        <p>Bem-vindo à página Sobre da Touge Supply...</p>
-    </div>
-</body>
-</html>
+  <div class="about-overlay">
+    <section class="about-hero">
+      <h1>Sobre a Touge Supply</h1>
+      <p>Streetwear inspirado pelas montanhas japonesas, pelo espírito JDM e pela estética clean que define nossa identidade.</p>
+    </section>
+
+    <section class="about-content">
+      <h2>Nossa essência</h2>
+      <p>
+        A Touge Supply nasceu da paixão pela cultura automotiva japonesa, pelas curvas das montanhas e pela energia das corridas noturnas.
+        Cada peça é criada para traduzir essa atmosfera em forma de arte — minimalista, agressiva e autêntica.
+      </p>
+
+      <h2>Design com propósito</h2>
+      <p>
+        Trabalhamos com estampas exclusivas produzidas em alta definição, garantindo o máximo de detalhe e qualidade em cada peça. 
+        Focamos em estilo, durabilidade e originalidade.
+      </p>
+
+      <h2>No que acreditamos</h2>
+      <ul>
+        <li>Estilo como extensão da personalidade</li>
+        <li>Visual impactante com estética minimalista</li>
+        <li>Produção limitada para manter autenticidade</li>
+        <li>Conexão verdadeira com a cultura JDM</li>
+      </ul>
+
+      <h2>Para quem vive o movimento</h2>
+      <p>
+        Touge Supply é mais que roupa.  
+        É o espírito das montanhas traduzido em streetwear.
+      </p>
+    </section>
+  </div>
+
+</div>
+
+<style>
+
+  .about-bg {
+      width: 100%;
+      min-height: 100vh;
+      background-image: url('https://www.canva.com/design/DAG6AJTpVPc/3hOiDF0HyMCVTslPl0Zviw/view?utm_content=DAG6AJTpVPc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h965da51299');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+  }
+
+
+  .about-overlay {
+      background: rgba(0, 0, 0, 0.70);
+      width: 100%;
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-hero {
+      text-align: center;
+      margin-bottom: 50px;
+      max-width: 900px;
+  }
+
+  .about-hero h1 {
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      margin-bottom: 15px;
+      color: #ffffff;
+      text-transform: uppercase;
+  }
+
+  .about-hero p {
+      font-size: 18px;
+      color: #d8d8d8;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto;
+  }
+
+  .about-content {
+      max-width: 900px;
+      color: #f1f1f1;
+  }
+
+  .about-content h2 {
+      font-size: 26px;
+      margin-top: 40px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      color: #ffffff;
+      letter-spacing: .8px;
+  }
+
+  .about-content p {
+      font-size: 16px;
+      color: #d0d0d0;
+      line-height: 1.7;
+      margin-bottom: 20px;
+  }
+
+  .about-content ul li {
+      margin-bottom: 10px;
+      color: #cfcfcf;
+      line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+      .about-hero h1 { font-size: 30px; }
+      .about-hero p { font-size: 16px; }
+      .about-content h2 { font-size: 22px; }
+  }
+</style>
+
